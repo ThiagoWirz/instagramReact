@@ -15,8 +15,7 @@ export default function App(){
                 </div>
                 <SideBar/>
             </div>
-            <MobileBackground/>
-            
+            <MobileBackground/> 
         </div> 
     )
 }
