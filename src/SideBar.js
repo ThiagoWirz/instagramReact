@@ -19,17 +19,18 @@ export default function SideBar(){
                     Sugestões para você
                     <div>Ver tudo</div>
                 </div>
-                    {sugestions.map((sugestion) => <div class="sugestao"> 
-                    <div class="usuario">
-                        <img src={`assets/img/${sugestion.name}.svg`} alt = "" />
-                        <div class="texto">
-                            <div class="nome">{sugestion.name}</div>
-                            <div class="razao">{sugestion.reason}</div>
-                        </div>
-                    </div>
+                    {sugestions.map((sugestion) =>
+                        <div class="sugestao"> 
+                            <div class="usuario">
+                                <img src={`assets/img/${sugestion.name}.svg`} alt = "" />
+                                <div class="texto">
+                                    <div class="nome">{sugestion.name}</div>
+                                    <div class="razao">{sugestion.reason}</div>
+                                </div>
+                            </div>
 
-                    <div class="seguir">Seguir</div>
-                </div>)}
+                            <div class="seguir">Seguir</div>
+                        </div>)}
             </div>
 
           <div class="links">

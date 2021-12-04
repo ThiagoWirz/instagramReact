@@ -2,6 +2,7 @@ import NavBar from "./NavBar"
 import Stories from "./Stories"
 import Posts from "./Posts"
 import SideBar from "./SideBar"
+import MobileBackground from "./MobileBackground"
 
 export default function App(){
     return (
@@ -14,6 +15,7 @@ export default function App(){
                 </div>
                 <SideBar/>
             </div>
+            <MobileBackground/>
             
         </div> 
     )
