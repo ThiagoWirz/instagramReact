@@ -1,7 +1,15 @@
 import Navbar from "./Navbar"
+import Stories from "./Stories"
 
 export default function App(){
     return (
-        <Navbar/> 
+        <div>
+            <Navbar/>
+            <div class = "corpo">
+                <div class = "esquerda">
+                    <Stories/>
+                </div>
+            </div>
+        </div> 
     )
 }

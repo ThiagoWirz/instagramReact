@@ -6,13 +6,13 @@ export default function Navbar(){
         <div class="navbar">
             <div class="container">
                 <div class="logo">
-                    <ion-icon name="logo-instagram"/>
+                    <IonIcons name="logo-instagram"/>
                     <div class="separador"></div>
                     <img src="assets/img/logo.png"  alt =""/>
                 </div>
 
                 <div class="logo-mobile">
-                    <ion-icon name="logo-instagram"/>
+                    <IonIcons name="logo-instagram"/>
                 </div>
 
                 <div class="instagram-mobile">
@@ -28,7 +28,7 @@ export default function Navbar(){
                 </div>
 
                 <div class="icones-mobile">
-                    <ion-icon name="paper-plane-outline"/>
+                    <IonIcons name="paper-plane-outline"/>
                 </div>
            </div>
         </div>
