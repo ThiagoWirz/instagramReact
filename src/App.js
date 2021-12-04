@@ -1,6 +1,7 @@
 import NavBar from "./NavBar"
 import Stories from "./Stories"
 import Posts from "./Posts"
+import SideBar from "./SideBar"
 
 export default function App(){
     return (
@@ -11,7 +12,9 @@ export default function App(){
                     <Stories/>
                     <Posts/>
                 </div>
+                <SideBar/>
             </div>
+            
         </div> 
     )
 }
