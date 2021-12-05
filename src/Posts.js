@@ -13,7 +13,7 @@ export default function Posts() {
       content: "dog",
       userLike: "adorable_animals",
       likes: "99.159",
-    },
+    }
   ];
   return (
     <div class="posts">

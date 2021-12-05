@@ -1,3 +1,4 @@
+import User from "./User";
 import Sugestion from "./Sugestion";
 
 export default function SideBar() {
@@ -10,13 +11,8 @@ export default function SideBar() {
   ];
   return (
     <div class="sidebar">
-      <div class="usuario">
-        <img src="assets/img/catanacomics.svg" alt="" />
-        <div class="texto">
-          <strong>catanacomics</strong>
-          Catana
-        </div>
-      </div>
+        <User nickname = "catanacomics" name = "Catana"/>
+      
 
       <div class="sugestoes">
         <div class="titulo">
