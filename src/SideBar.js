@@ -11,9 +11,7 @@ export default function SideBar() {
   ];
   return (
     <div class="sidebar">
-        <User nickname = "catanacomics" name = "Catana"/>
-      
-
+      <User id="catanacomics" name="Catana" />
       <div class="sugestoes">
         <div class="titulo">
           Sugestões para você
