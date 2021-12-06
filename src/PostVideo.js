@@ -1,6 +1,6 @@
 import IonIcons from "./IonIcons";
 
-export default function Post(props) {
+export default function PostVideo(props) {
   const icons = ["heart-outline", "chatbubble-outline", "paper-plane-outline"];
   return (
     <div class="post">
@@ -15,7 +15,11 @@ export default function Post(props) {
       </div>
 
       <div class="conteudo">
-        <img src={`assets/img/${props.content}`} alt="" />
+        <video class="video" autoPlay muted loop>
+          <source src={`assets/video/${props.content}.mp4`} type="video/mp4" />
+          <source src={`assets/video/${props.content}.ogv`} type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <div class="fundo">

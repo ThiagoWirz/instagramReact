@@ -180,7 +180,7 @@ body {
   cursor: pointer;
 }
 
-.post .conteudo img {
+.post .conteudo img, video {
   width: 100%;
 }
 
